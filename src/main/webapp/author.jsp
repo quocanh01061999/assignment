@@ -14,7 +14,6 @@
 <body>
 
 <s:form action="author" method="POST">
-    <s:textfield name="maTG" label="Mã Tác Giả"/>
     <s:textfield name="tentacgia" label="Tên Tác Giả"/>
     <s:textfield name="diachi" label="Địa Chỉ"/>
     <s:textfield name="SDT" label="SĐT"/>

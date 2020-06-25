@@ -14,7 +14,6 @@
 <body>
 
 <s:form action="sach" method="POST">
-    <s:textfield name="maSach" label="Mã Sách"/>
     <s:textfield name="maLoai" label="Mã Loại"/>
     <s:textfield name="tenSach" label="Tên Sách"/>
     <s:textfield name="tomtat" label="Tóm tắt"/>

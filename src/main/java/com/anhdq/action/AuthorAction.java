@@ -5,7 +5,6 @@ import com.anhdq.entity.AuthorEntity;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class AuthorAction extends ActionSupport {
-
     private int MaTG;
     private String Tentacgia;
     private String Diachi;

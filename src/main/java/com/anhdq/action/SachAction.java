@@ -71,5 +71,4 @@ public class SachAction extends ActionSupport {
     public void setMaNXB(int maNXB) {
         MaNXB = maNXB;
     }
-
 }
