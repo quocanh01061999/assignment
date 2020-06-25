@@ -1,57 +1,26 @@
 <%--
   Created by IntelliJ IDEA.
   User: Quoc Anh
-  Date: 6/24/2020
-  Time: 8:37 PM
+  Date: 6/25/2020
+  Time: 1:21 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-    <title>Success</title>
-    <style>
-        table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 50%;
-        }
-
-        td, th {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-
-        tr:nth-child(even) {
-            background-color: #dddddd;
-        }
-    </style>
+    <title>Tac gia</title>
 </head>
 <body>
-<h1>List Product</h1>
 
-<table>
-    <tr>
-        <th>Mã Tác Giả</th>
-        <th>Tên Tác Giả</th>
-        <th>Địa Chỉ</th>
-        <th>SĐT</th>
-        <th>Email</th>
-    </tr>
-
-    <s:iterator value="authors">
-        <tr>
-            <td><s:property value="maTG" /></td>
-            <td><s:property value="tentacgia" /></td>
-            <td><s:property value="diachi" /></td>
-            <td><s:property value="SDT" /></td>
-            <td><s:property value="email" /></td>
-        </tr>
-    </s:iterator>
-
-</table>
+<s:form action="author" method="POST">
+    <s:textfield name="maTG" label="Mã Tác Giả"/>
+    <s:textfield name="tentacgia" label="Tên Tác Giả"/>
+    <s:textfield name="diachi" label="Địa Chỉ"/>
+    <s:textfield name="SDT" label="SĐT"/>
+    <s:textfield name="email" label="Email"/>
+    <s:submit value="Save" />
+</s:form>
 
 </body>
 </html>
-

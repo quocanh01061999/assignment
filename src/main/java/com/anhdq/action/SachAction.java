@@ -4,8 +4,6 @@ import com.anhdq.dao.SachDAO;
 import com.anhdq.entity.SachEntity;
 import com.opensymphony.xwork2.ActionSupport;
 
-import javax.persistence.Column;
-
 public class SachAction extends ActionSupport {
     private int MaSach;
     private int MaLoai;

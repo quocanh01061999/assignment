@@ -4,7 +4,7 @@ import javax.persistence.*;
 import org.hibernate.annotations.GenericGenerator;
 
 @Entity
-@Table(name = "Tacgia")
+@Table(name = "author")
 public class AuthorEntity {
 
     @Id

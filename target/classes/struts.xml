@@ -13,7 +13,7 @@
             <!--            <result name = "input">/product.jsp</result>-->
         </action>
         <action name = "author" class = "com.anhdq.action.AuthorAction" method = "execute">
-            <result name = "success" type="redirect">/listauthor</result>
+            <result name = "success" type="redirect">/listauthor.jsp</result>
             <!--            <result name = "bad">/fail.jsp</result>-->
             <!--            <result name = "input">/product.jsp</result>-->
         </action>

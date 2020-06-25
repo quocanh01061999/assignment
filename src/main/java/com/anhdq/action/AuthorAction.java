@@ -1,12 +1,8 @@
 package com.anhdq.action;
 
 import com.anhdq.dao.AuthorDAO;
-
 import com.anhdq.entity.AuthorEntity;
 import com.opensymphony.xwork2.ActionSupport;
-
-import javax.persistence.Column;
-import java.util.List;
 
 public class AuthorAction extends ActionSupport {
 
